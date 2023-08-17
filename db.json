@@ -1,19 +1,68 @@
 {
-  "posts": [
+  "products": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Product 1 update",
+      "price": 1000,
+      "image": "https://picsum.photos/100/100",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Product 2",
+      "image": "https://picsum.photos/100/100",
+      "price": 2000
+    },
+    {
+      "name": "Samsung Galaxy S23 Ultra 2023",
+      "price": 111,
+      "image": "https://picsum.photos/100/100",
+      "id": 3
+    },
+    {
+      "name": "Đức Nam 123321",
+      "price": 20000,
+      "image": "https://picsum.photos/100/100",
+      "id": 4
     }
   ],
-  "comments": [
+  "users": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "name": "admin",
+      "role": 1
+    },
+    {
+      "id": 1,
+      "name": "user",
+      "role": 2
+    },
+    {
+      "name": "Nguyễn Đức Nam",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "id": 2
+    },
+    {
+      "name": "",
+      "password": "",
+      "confirmPassword": "",
+      "id": 3
+    },
+    {
+      "name": "",
+      "password": "",
+      "confirmPassword": "",
+      "id": 4
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "roles": [
+    {
+      "id": 1,
+      "name": "admin"
+    },
+    {
+      "id": 2,
+      "name": "user"
+    }
+  ]
 }
